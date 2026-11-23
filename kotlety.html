@@ -4,11 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styl.css">
+
 </head>
+
 <body>
     <h1>Kotlety na smetaně</h1>
 
+    <p class="uvod">
+        Jeden z mých oblíbených receptů, který stojí za vyzkoušení!
+    </p>
+
     <img src="kotlety.jpg" alt="Kotlety na smetaně" width="300" height="300">
     
+    <h2>Suroviny, které budete potřebovat:</h2>
+
+    <table>
+        <tr>
+            <th>Surovina</th>
+            <th>Množství</th>
+            <th>Jednotka</th>
+        </tr>
+
+        <tr>
+            <td>Vepřové maso</td>
+            <td>500</td>
+            <td>g</td>
+        </tr>
+
+        <tr>
+            <td>Smetana na vaření</td>
+            <td>500</td>
+            <td>ml</td>
+        </tr>
+
+        <tr>
+            <td>Brambory</td>
+            <td>600</td>
+            <td>g</td>
+        </tr>
+
+        <tr>
+            <td>Koření (sůl, pepř, chilli)</td>
+            <td>Podle chuti</td>
+            <td>-</td>
+        </tr>
+    </table>
+
+    <h2>Postup přípravy:</h2>
+
+    <ol>
+        <li>Maso nakrájíme na plátky a okořeníme.</li>
+        <li>Na pánvi maso opečeme z obou stran.</li>
+        <li>Přidáme smetanu a necháme společně provařit.</li>
+        <li>Brambory uvaříme v osolené vodě.</li>
+        <li>Hotové jídlo podáváme společně.</li>
+    </ol>
+
+    <p class="zpet">
+        <a href="index.html">← Zpět na hlavní stránku</a>
+    </p>
+    
+<h2>Ohodnoť tento recept</h2>
+
+<form>
+    <label for="jmeno">Tvoje jméno:</label><br>
+    <input type="text" id="jmeno" name="jmeno" placeholder="Zadej jméno">
+    <br><br>
+
+    <label for="hodnoceni">Jak ti recept chutnal?</label><br>
+    <select id="hodnoceni" name="hodnoceni">
+        <option>Výborný</option>
+        <option>Dobrý</option>
+        <option>Průměrný</option>
+        <option>Nelíbil se mi</option>
+    </select>
+    <br><br>
+
+    <label for="komentar">Tvůj komentář:</label><br>
+    <textarea id="komentar" name="komentar" rows="4" cols="40"
+    placeholder="Napiš svůj názor..."></textarea>
+    <br><br>
+
+    <input type="checkbox" id="souhlas" name="souhlas">
+    <label for="souhlas">Souhlasím s odesláním hodnocení</label>
+    <br><br>
+
+    <button type="submit">Odeslat hodnocení</button>
+</form>
+
 </body>
 </html>
