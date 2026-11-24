@@ -3,6 +3,10 @@ table{
     border-collapse: collapse;
 }
 
+h1:hover{
+    color: purple
+}
+
 h1 {
     text-align: center;
     color: #8b4513;
